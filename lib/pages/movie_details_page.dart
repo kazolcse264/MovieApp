@@ -110,7 +110,9 @@ class MovieDetailsPage extends StatelessWidget {
                                   ),
                                 ],
                               ),
-                              ElevatedButton(onPressed: _launchURL(movie), child: const Text('Link')),
+                            ElevatedButton(onPressed: (){
+                              _launchURL(movie);
+                            }, child: const Text('Link')),
                             ],
                           ),
                         ),
